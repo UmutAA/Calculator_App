@@ -1,0 +1,12 @@
+# Python compiled files
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+
+# VSCode settings
+.vscode/
+
+# Logs
+*.log
