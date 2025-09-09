@@ -3,7 +3,6 @@ from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import (QApplication, QWidget, QVBoxLayout, QHBoxLayout, QGridLayout,
                              QPushButton, QLabel, QLineEdit, QGraphicsDropShadowEffect)
 from PyQt5.QtGui import QIcon, QFont, QColor
-import calc
 
 class CalculatorApp(QWidget):
     def __init__(self):
@@ -98,7 +97,7 @@ class CalculatorApp(QWidget):
             try:
                 result = eval(self.text_box.text())
                 self.text_box.setText(str(result))
-                
+
             except Exception as e:
                 self.text_box.setText("Error")
 
