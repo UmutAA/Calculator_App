@@ -10,7 +10,7 @@ A simple calculator app built in Python that performs basic arithmetic operation
 ## How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/Calculator_App.git
+   git clone https://github.com/UmutAA/Calculator_App.git
 
 2. Navigate to the project folder
    ```bash
